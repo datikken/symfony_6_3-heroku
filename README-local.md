@@ -9,4 +9,9 @@ docker-compose logs -f
 # Links:
 1. https://localhost
 2. https://localhost/docs
-3. https://localhost/admin/	
+3. https://localhost/admin/
+# Manage server files:
+cd /api <br/>
+heroku run bash
+# Migrations:
+heroku run php bin/console doctrine:migrations:migrate
