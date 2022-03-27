@@ -15,3 +15,22 @@ cd /api <br/>
 heroku run bash
 # Migrations:
 heroku run php bin/console doctrine:migrations:migrate
+
+# Book:
+```
+{
+  "isbn": "9781782164104",
+  "title": "Persistence in PHP with the Doctrine ORM",
+  "description": "This book is designed for PHP developers and architects who want to modernize their skills through better understanding of Persistence and ORM.",
+  "publicationDate": "2013-12-01"
+}
+```
+# Review:
+```
+{
+  "book": "/books/1",
+  "rating": 5,
+  "body": "Interesting book!",
+  "created": "2022-03-27T18:53:29.789Z",
+  "updated": "2022-03-27T18:53:29.789Z"
+}
